@@ -4,7 +4,7 @@
   "main": "index.js",
   "author": "Rajat Sharma",
   "license": "MIT",
-  "scripts": {
+  "bin": {
     "js-eval-init": "./install.sh"
   }
 }
