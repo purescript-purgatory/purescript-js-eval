@@ -11,5 +11,5 @@ base=`basename "$PWD"`
 if [ "$base" != "purescript-js-eval" ]
 then
   echo $package | perl -pE "s/dependencies-array/$deps/;s/version-hash/$hash/;" >> $PWD/packages.dhall
-  spago install common-utils
+  spago install js-eval
 fi
