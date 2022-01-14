@@ -1,0 +1,10 @@
+{
+  "name": "purescript-js-eval",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Rajat Sharma",
+  "license": "MIT",
+  "scripts": {
+    "js-eval-init": "./install.sh"
+  }
+}
